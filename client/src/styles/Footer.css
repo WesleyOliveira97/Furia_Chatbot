@@ -1,0 +1,32 @@
+.footer {
+  background-color: var(--primary-color);
+  color: var(--light-text);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links a {
+  color: var(--light-text);
+  margin-left: 15px;
+  font-size: 1.2rem;
+}
+
+.social-links a:hover {
+  color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+  .footer .container {
+    flex-direction: column;
+  }
+  
+  .social-links {
+    margin-top: 15px;
+  }
+}
